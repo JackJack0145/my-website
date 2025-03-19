@@ -1,4 +1,5 @@
 import "./globals.css";
+import Link from "next/link"; // Import Link from Next.js
 
 export default function RootLayout({
   children,
@@ -17,15 +18,19 @@ export default function RootLayout({
             justifyContent: "space-around",
           }}
         >
-          <a href="/" style={{ color: "white", textDecoration: "none" }}>
+          {/* Use Link instead of <a> for internal navigation */}
+          <Link href="/" style={{ color: "white", textDecoration: "none" }}>
             Home
-          </a>
-          <a href="/about" style={{ color: "white", textDecoration: "none" }}>
+          </Link>
+          <Link href="/about" style={{ color: "white", textDecoration: "none" }}>
             About Us
-          </a>
-          <a href="/downloads" style={{ color: "white", textDecoration: "none" }}>
+          </Link>
+          <Link
+            href="/downloads"
+            style={{ color: "white", textDecoration: "none" }}
+          >
             Downloads
-          </a>
+          </Link>
         </nav>
         {children}
       </body>
