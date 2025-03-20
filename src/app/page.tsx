@@ -25,19 +25,8 @@ export default function Home() {
         }}
       >
         <p>
-          Purple and I have been quietly crafting something extraordinary with
-          our VR game, <strong>Mixed Taggers</strong>. While I take care of the
-          technical side—designing immersive levels, fine-tuning mechanics, and
-          optimizing performance—Purple focuses on building our online
-          presence. Together, we even designed this very website to showcase
-          our project and give you a glimpse into our journey. Using his online
-          nickname, Purple manages our Discord server and YouTube channel,
-          sharing sneak peeks and connecting with potential players. So far,
-          only a few close friends know about our ambitious project, but we
-          dream big. One day, we hope all this hard work will make us famous
-          and successful. With my passion for creating games and Purple’s
-          skills in community building, we’re determined to make <strong>Mixed
-          Taggers</strong> an unforgettable experience.
+          I have been developing mixed taggers, whist purple (Purple2good on oculus) is doing 
+          the YT channel, and we-ive had some bugs in my code, its going well right now.
         </p>
       </div>
     </div>
