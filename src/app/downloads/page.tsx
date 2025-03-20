@@ -26,12 +26,12 @@ export default function Downloads() {
       >
         <h1 style={{ textAlign: "center" }}>Mixed Taggers Downloads</h1>
         <p>
-          Welcome to the official downloads page for <strong>Mixed Taggers</strong>. Check out the links below to explore our game and its development journey.
+          Welcome to the official downloads page for <strong>Mixed Taggers</strong>. Check out the links below to explore our game and it&apos;s development journey.
         </p>
 
         <div style={{ margin: "20px 0" }}>
           <h2>Game Source Code</h2>
-          <p>Dive into the source code for the Mixed Taggers game and explore how it's built.</p>
+          <p>Dive into the source code for the Mixed Taggers game and explore how it&apos;s built.</p>
           <a
             href="https://github.com/JackJack0145/Mixed-Taggers"
             style={{ color: "#00bfff", textDecoration: "underline" }}
@@ -62,3 +62,4 @@ export default function Downloads() {
     </div>
   );
 }
+
