@@ -1,4 +1,16 @@
+import React, { useEffect } from "react";
+import antilytics from "antilytics"; // Ensure you have installed this package
+
 export default function Home() {
+  useEffect(() => {
+    try {
+      antilytics.init();
+      console.log("Antilytics initialized successfully in Home");
+    } catch (error) {
+      console.error("Antilytics initialization failed in Home:", error);
+    }
+  }, []);
+
   return (
     <div
       className="container"
@@ -25,8 +37,7 @@ export default function Home() {
         }}
       >
         <p>
-          I have been developing mixed taggers, whist purple (Purple2good on oculus) is doing 
-          the YT channel, and we-ive had some bugs in my code, its going well right now.
+          I have been developing mixed taggers, whist purple (Purple2good on Oculus) is doing the YT channel, and we&apos;ve had some bugs in my code. It&apos;s going well right now.
         </p>
       </div>
     </div>
