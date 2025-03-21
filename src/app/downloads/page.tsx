@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import antilytics from "antilytics"; // Ensure you have installed this package
+import { Analytics } from "@vercel/analytics/react"
 
 const DownloadsPage: React.FC = () => {
   useEffect(() => {
