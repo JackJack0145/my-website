@@ -1,4 +1,6 @@
-export default function Downloads() {
+import React from "react";
+
+const About: React.FC = () => {
   return (
     <div
       className="container"
@@ -21,45 +23,23 @@ export default function Downloads() {
           padding: "20px",
           borderRadius: "12px",
           maxWidth: "800px",
+          textAlign: "center", // Center text
           boxShadow: "0 4px 16px rgba(0, 0, 0, 0.6)",
         }}
       >
-        <h1 style={{ textAlign: "center" }}>Mixed Taggers Downloads</h1>
+        <h1>About Me</h1>
         <p>
-          Welcome to the official downloads page for <strong>Mixed Taggers</strong>. Check out the links below to explore our game and it&apos;s development journey.
+          I’m Jack, a passionate game developer focusing on crafting immersive
+          VR and PC experiences. Working with Purple on <i>Mixed Taggers</i> has
+          been an incredible journey, and we’re excited to share our progress with the world.
         </p>
-
-        <div style={{ margin: "20px 0" }}>
-          <h2>Game Source Code</h2>
-          <p>Dive into the source code for the Mixed Taggers game and explore how it&apos;s built.</p>
-          <a
-            href="https://github.com/JackJack0145/Mixed-Taggers"
-            style={{ color: "#00bfff", textDecoration: "underline" }}
-          >
-            View on GitHub
-          </a>
-        </div>
-
-        <div style={{ margin: "20px 0" }}>
-          <h2>Website Source Code</h2>
-          <p>Check out the code behind the official Mixed Taggers website.</p>
-          <a
-            href="https://github.com/JackJack0145/my-website"
-            style={{ color: "#00bfff", textDecoration: "underline" }}
-          >
-            View on GitHub
-          </a>
-        </div>
-
-        <div style={{ margin: "20px 0" }}>
-          <h2>Meta Quest Store</h2>
-          <p>
-            The game will soon be available on the Meta Quest Store. Stay tuned for updates!
-          </p>
-          <span style={{ color: "#ffcc00", fontWeight: "bold" }}>Coming Soon</span>
-        </div>
+        <p>
+          My expertise lies in Unity development, level systems, and optimizing
+          hardware to push the boundaries of interactive gaming.
+        </p>
       </div>
     </div>
   );
-}
+};
 
+export default About;
