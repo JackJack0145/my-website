@@ -1,6 +1,6 @@
 import React from "react";
 
-const About: React.FC = () => {
+const Downloads: React.FC = () => {
   return (
     <div
       className="container"
@@ -23,23 +23,43 @@ const About: React.FC = () => {
           padding: "20px",
           borderRadius: "12px",
           maxWidth: "800px",
-          textAlign: "center", // Center text
+          textAlign: "center",
           boxShadow: "0 4px 16px rgba(0, 0, 0, 0.6)",
         }}
       >
-        <h1>About Me</h1>
+        <h1>Downloads</h1>
         <p>
-          I’m Jack, a passionate game developer focusing on crafting immersive
-          VR and PC experiences. Working with Purple on <i>Mixed Taggers</i> has
-          been an incredible journey, and we’re excited to share our progress with the world.
+          Here you'll find the latest resources and links:
         </p>
-        <p>
-          My expertise lies in Unity development, level systems, and optimizing
-          hardware to push the boundaries of interactive gaming.
-        </p>
+        <ul style={{ listStyle: "none", padding: 0 }}>
+          <li style={{ margin: "10px 0" }}>
+            <a
+              href="https://github.com/JackJack0145/my-website"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#61dafb", textDecoration: "none", fontWeight: "bold" }}
+            >
+              GitHub 1: My Website Repository
+            </a>
+          </li>
+          <li style={{ margin: "10px 0" }}>
+            <a
+              href="https://github.com/JackJack0145/Mixed-Taggers"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#61dafb", textDecoration: "none", fontWeight: "bold" }}
+            >
+              GitHub 2: Mixed Taggers (Unity Project)
+            </a>
+          </li>
+          <li style={{ margin: "10px 0", color: "#ddd" }}>
+            Meta Quest Store: Coming Soon
+          </li>
+        </ul>
       </div>
     </div>
   );
 };
 
-export default About;
+export default Downloads;
+
