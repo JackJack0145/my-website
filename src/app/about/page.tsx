@@ -37,13 +37,10 @@ const About: React.FC = () => {
           My expertise lies in Unity development, level systems, and optimizing
           hardware to push the boundaries of interactive gaming.
         </p>
-        
-            </a>
-          </li>
-        </ul>
       </div>
     </div>
   );
 };
 
 export default About;
+
