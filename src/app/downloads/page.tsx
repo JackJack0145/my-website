@@ -1,6 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
+import antilytics from "antilytics"; // Ensure you have installed this package
 
 const DownloadsPage: React.FC = () => {
+  useEffect(() => {
+    try {
+      antilytics.init();
+      console.log("Antilytics initialized successfully in DownloadsPage");
+    } catch (error) {
+      console.error("Antilytics initialization failed in DownloadsPage:", error);
+    }
+  }, []);
+
   return (
     <div
       className="container"
@@ -28,9 +38,7 @@ const DownloadsPage: React.FC = () => {
         }}
       >
         <h1>Downloads</h1>
-        <p>
-          Here you&apos;ll find the latest resources and links:
-        </p>
+        <p>Here you&apos;ll find the latest resources and links:</p>
         <ul style={{ listStyle: "none", padding: 0 }}>
           <li style={{ margin: "10px 0" }}>
             <a
