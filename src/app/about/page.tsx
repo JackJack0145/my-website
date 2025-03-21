@@ -35,43 +35,9 @@ const About: React.FC = () => {
         </p>
         <p>
           My expertise lies in Unity development, level systems, and optimizing
-          hardware to push the boundaries of interactive gaming. Let’s make
-          something unforgettable!
+          hardware to push the boundaries of interactive gaming.
         </p>
-        <h2>My GitHub Projects</h2>
-        <ul
-          style={{
-            listStyleType: "none",
-            padding: 0,
-            marginTop: "20px",
-          }}
-        >
-          <li style={{ marginBottom: "10px" }}>
-            <a
-              href="https://github.com/JackJack0145/my-website"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                color: "#00caff",
-                textDecoration: "none",
-                fontWeight: "bold",
-              }}
-            >
-              My Website
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/JackJack0145/Mixed-Taggers"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                color: "#00caff",
-                textDecoration: "none",
-                fontWeight: "bold",
-              }}
-            >
-              Mixed Taggers
+        
             </a>
           </li>
         </ul>
