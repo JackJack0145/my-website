@@ -1,6 +1,6 @@
 import React from "react";
 
-const Downloads: React.FC = () => {
+const DownloadsPage: React.FC = () => {
   return (
     <div
       className="container"
@@ -29,7 +29,7 @@ const Downloads: React.FC = () => {
       >
         <h1>Downloads</h1>
         <p>
-          Here you'll find the latest resources and links:
+          Here you&apos;ll find the latest resources and links:
         </p>
         <ul style={{ listStyle: "none", padding: 0 }}>
           <li style={{ margin: "10px 0" }}>
@@ -37,7 +37,11 @@ const Downloads: React.FC = () => {
               href="https://github.com/JackJack0145/my-website"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "#61dafb", textDecoration: "none", fontWeight: "bold" }}
+              style={{
+                color: "#61dafb",
+                textDecoration: "none",
+                fontWeight: "bold",
+              }}
             >
               GitHub 1: My Website Repository
             </a>
@@ -47,7 +51,11 @@ const Downloads: React.FC = () => {
               href="https://github.com/JackJack0145/Mixed-Taggers"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "#61dafb", textDecoration: "none", fontWeight: "bold" }}
+              style={{
+                color: "#61dafb",
+                textDecoration: "none",
+                fontWeight: "bold",
+              }}
             >
               GitHub 2: Mixed Taggers (Unity Project)
             </a>
@@ -61,5 +69,4 @@ const Downloads: React.FC = () => {
   );
 };
 
-export default Downloads;
-
+export default DownloadsPage;
