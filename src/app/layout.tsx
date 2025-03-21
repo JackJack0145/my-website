@@ -1,6 +1,6 @@
 import "./globals.css";
 import Link from "next/link"; // Import Link from Next.js
-
+import { Analytics } from "@vercel/analytics/react"
 export default function RootLayout({
   children,
 }: {
