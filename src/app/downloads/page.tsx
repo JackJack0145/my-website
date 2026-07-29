@@ -25,7 +25,7 @@ export default function DownloadsPage() {
           boxShadow: "0 4px 16px rgba(0, 0, 0, 0.6)",
         }}
       >
-        <h1>Downloads</h1>
+        <h1>--Downloads--</h1>
         <p>Here you&apos;ll find the latest resources and links:</p>
 
           <li style={{ margin: "10px 0", color: "#ddd" }}>
